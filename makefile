@@ -4,4 +4,4 @@ readme.md: guessinggame.sh
 	ls --full-time readme.md | egrep "\d."  >> readme.md
 	echo "- Lines in the guessinggame.sh: " >> readme.md
 	wc -l guessinggame.sh | egrep -o "[0-9]+"  >> readme.md
-	echo "-  This is a [link on my working page](https://github.com/YevhenMovenko/unixCoursraStude/settings/pages/themes?source=gh-pages)" >> readme.md
+	echo "-  This is a [link on my working page](https://yevhenmovenko.github.io/unixCoursraStude/)" >> readme.md
